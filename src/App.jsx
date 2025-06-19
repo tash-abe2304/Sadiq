@@ -1,15 +1,15 @@
 import React from 'react';
-import navbar from './components/navbar.jsx'; // adjust path if needed
-import herosection from './components/herosection.jsx';
-import featuresection from './components/featuresection.jsx';
+import Navbar from './components/navbar.jsx'; // adjust path if needed
+import HeroSection from './components/herosection.jsx';
+import FeatureSection from './components/featuresection.jsx';
 
 
 const App = () => {
   return (
     <div>
-      <navbar />
+      <Navbar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
-        <herosection />
+        <HeroSection />
         <featuresection />
       </div>
     </div>
